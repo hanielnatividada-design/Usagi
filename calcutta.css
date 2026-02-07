@@ -1,8 +1,9 @@
 nav{
-  position:fixed;
-  top:0;
-  left:0;
-  width:100;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
   background-color: gold;
   text-align: center;
   padding: 5px;
@@ -47,7 +48,10 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  position: relative;
+  overflow-x: clip;
 }
+
 main{
   padding:10px;
   margin-right:60px;
@@ -63,13 +67,13 @@ div{
 .borderofsaint {
   position: absolute;
   top: 55%;
-  left: 51.2%;
+  left: 52.6%;
   transform: translate(-50%, -50%);
   width: auto;
 }
 
 .borderofsaint img {
-  width: 100vh;
+  width: 112vh;
   height: 80vh;
   display: block;
   margin: 0 auto;
@@ -123,11 +127,8 @@ div{
   text-shadow: 1px 1px 5px rgba(0,0,0,0.7); 
 }
 
-
 h2, h3, h4{
-
   color:forestgreen;
-
 }
 
 .container {
@@ -135,8 +136,8 @@ h2, h3, h4{
   align-items: center;
   justify-content: center;
   height: 48vh;
-  border:3px solid yellow;
-  background-color:tan;
+  border:3px solid gold;
+  background-color:#f7f6e9;
   width: 1300px;
   max-width: 100%;
   margin: 2px auto 0 auto;
@@ -148,19 +149,19 @@ h2, h3, h4{
   top:40%;
   left:5%;
   width: 390px;
-  padding: 1px;
   color:black;
-  background-color:tan;
+  background-color:#f7f6e9;
   font-size: 18px;
+  letter-spacing: 1px;
 }
 .infoo {
   position:absolute;
-  left:65%;
+  left:67%;
   width: 390px;
-  padding: 1px;
   color:black;
-  background-color:tan;
-  font-size: 18px;
+  background-color:#f7f6e9;
+  font-size: 17.3px;
+  letter-spacing: 1px;
 }
 
 .left {
@@ -222,4 +223,13 @@ a img{
   font-size: 50px;
   font-weight: bold;
   text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+}
+
+.fixed-image {
+  position: fixed;
+  top: -10px;    
+  right: 190px;  
+  width: 500px; 
+  height: auto;
+  z-index: 999;
 }
