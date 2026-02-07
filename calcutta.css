@@ -40,7 +40,7 @@ h1 {
   
 }
 body{
-   padding: 10px;
+  padding: 10px;
   margin-right: 60px;
   margin-left: 60px;
   background-image: url('background.png');
@@ -62,7 +62,7 @@ div{
 }
 .borderofsaint {
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 51.2%;
   transform: translate(-50%, -50%);
   width: auto;
@@ -77,12 +77,13 @@ div{
 
 .imagecontainer {
   position: relative;
-  width: 100%;
+  width: 142vh;
   margin-bottom: 2px;
+  margin-top: 10px;
 }
 
 .imagecontainer img {
-  width: 100%;
+  width: 142vh;
   display: block;
 }
 
@@ -133,10 +134,10 @@ h2, h3, h4{
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 60vh;
+  height: 48vh;
   border:3px solid yellow;
   background-color:tan;
-  width: 1350px;
+  width: 1300px;
   max-width: 100%;
   margin: 2px auto 0 auto;
   padding: 1px;
@@ -144,21 +145,22 @@ h2, h3, h4{
 
 .info {
   position:absolute;
-  left:3%;
+  top:40%;
+  left:5%;
   width: 390px;
   padding: 1px;
   color:black;
   background-color:tan;
-  font-size: 20px;
+  font-size: 18px;
 }
 .infoo {
   position:absolute;
-  left:70%;
+  left:65%;
   width: 390px;
   padding: 1px;
   color:black;
   background-color:tan;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .left {
